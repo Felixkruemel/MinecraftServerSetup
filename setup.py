@@ -149,6 +149,7 @@ Generelle Infos:
 Zum Starten des Servers: \"sudo systemctl start MinecraftServer\"
 Zum Stoppen des Servers: \"sudo systemctl stop MinecraftServer\"
 Zum Einloggen in die Admin Konsole: \"""" + serverDirectory + 'mcrcon -H 127.0.0.1 -P 25575 -p your-entered-password -t' + """
+Um den Server automatisch beim Systemstart zu starten: \"sudo systemctl enable MinecraftServer\"
 ----------------------------------
 
 """)
